@@ -36,6 +36,8 @@ def get_sphere_points(
         - "mhe_<int>": minimizes the E_s hyperspherical energy for s > 0.
     """
     print(obj, n)
+    if n == 0:
+        return torch.empty(0, d)
     if d == 2:
         sphere_points = get_2d_sphere_points(n=n)
     elif d == 3:
