@@ -81,6 +81,30 @@ def plot_embeddings(
     )
     ax.set_aspect("equal")
 
+    # Add labels for nodes connected to the root
+    # Assume root is node 0 or find it
+    roots = [n for n, d in hierarchy.in_degree() if d == 0]
+    root = roots[0] if roots else 0
+    if root in hierarchy:
+        children = list(hierarchy.successors(root))
+        for child in children:
+            if child < len(hierarchy_embeddings):
+                pos = hierarchy_embeddings[child]
+                if isinstance(pos, torch.Tensor):
+                    pos = pos.detach().cpu().numpy()
+                elif hasattr(pos, 'numpy'): # Handle other tensor types if any
+                    pos = pos.numpy()
+                
+                # Check for 'title' attribute, default to child ID
+                label = hierarchy.nodes[child].get("title", str(child))
+                ax.annotate(
+                    label, 
+                    (pos[0], pos[1]), 
+                    fontsize=8, 
+                    alpha=0.8,
+                    bbox=dict(boxstyle="round,pad=0.1", fc="white", alpha=0.6)
+                )
+
     ax.set_axis_off()
 
     # Save figure

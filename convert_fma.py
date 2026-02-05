@@ -55,10 +55,17 @@ def convert_fma_genres():
                 # For safety, let's attach to virtual root 0 so it's connected
                 print(f"Attaching orphaned node {new_node_id} (old {old_node_id}) to virtual root 0.")
                 G.add_edge(0, new_node_id)
+                G.add_edge(0, new_node_id)
         else:
             # Node is a top-level node
             # Connect to virtual root 0
             G.add_edge(0, new_node_id)
+        
+        # Add title attribute
+        G.nodes[new_node_id]["title"] = row['title']
+
+    # Add title for virtual root
+    G.nodes[0]["title"] = "Root"
 
     print(f"Graph constructed: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges.")
     print("Checking if graph is a tree/forest...")

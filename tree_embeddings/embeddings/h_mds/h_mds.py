@@ -94,7 +94,7 @@ def h_mds(
     )
 
     # If there are only 2 dimensions, visualize the embeddings    
-    if embedding_dim == 2:
+    if embeddings.shape[1] == 2:
         plot_embeddings(
             hierarchy_embeddings=embeddings,
             hierarchy=graph,

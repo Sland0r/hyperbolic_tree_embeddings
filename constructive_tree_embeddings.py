@@ -158,5 +158,29 @@ def run_constructive_tree_embeddings(
         plt.ylim(-1.1, 1.1)
         plt.gca().set_aspect('equal', adjustable='box')
         plt.title(f"Hyperbolic Embeddings (2D Projection, dim={embeddings.shape[1]})")
+        
+        # Add labels for children of root
+        try:
+            if root in hierarchy:
+                children = list(hierarchy.successors(root))
+                for child in children:
+                    idx = child
+                    if idx < len(embeddings):
+                        pos = embeddings[idx]
+                        # Handle tensor to numpy
+                        if isinstance(pos, torch.Tensor):
+                            pos = pos.numpy()
+                        x, y = pos[0], pos[1]
+                        label = hierarchy.nodes[child].get('title', str(child))
+                        plt.annotate(
+                            label, 
+                            (x, y), 
+                            fontsize=8, 
+                            alpha=0.8,
+                            bbox=dict(boxstyle="round,pad=0.1", fc="white", alpha=0.6)
+                        )
+        except Exception as e:
+            print(f"Failed to add labels: {e}")
+
         plt.savefig(os.path.join(res_dir, "embeddings_poincare.png"))
         plt.close()

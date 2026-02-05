@@ -4,495 +4,659 @@
     "graph": {},
     "nodes": [
         {
+            "title": "Root",
             "id": 0
         },
         {
+            "title": "Experimental",
             "id": 32
         },
         {
+            "title": "Avant-Garde",
             "id": 1
         },
         {
+            "title": "International",
             "id": 2
         },
         {
+            "title": "Blues",
             "id": 3
         },
         {
+            "title": "Jazz",
             "id": 4
         },
         {
+            "title": "Classical",
             "id": 5
         },
         {
+            "title": "Novelty",
             "id": 6
         },
         {
+            "title": "Spoken",
             "id": 20
         },
         {
+            "title": "Comedy",
             "id": 7
         },
         {
+            "title": "Old-Time / Historic",
             "id": 8
         },
         {
+            "title": "Country",
             "id": 9
         },
         {
+            "title": "Pop",
             "id": 10
         },
         {
+            "title": "Soul-RnB",
             "id": 14
         },
         {
+            "title": "Disco",
             "id": 11
         },
         {
+            "title": "Rock",
             "id": 12
         },
         {
+            "title": "Easy Listening",
             "id": 13
         },
         {
+            "title": "Electronic",
             "id": 15
         },
         {
+            "title": "Sound Effects",
             "id": 16
         },
         {
+            "title": "Folk",
             "id": 17
         },
         {
+            "title": "Instrumental",
             "id": 163
         },
         {
+            "title": "Soundtrack",
             "id": 18
         },
         {
+            "title": "Funk",
             "id": 19
         },
         {
+            "title": "Hip-Hop",
             "id": 21
         },
         {
+            "title": "Audio Collage",
             "id": 22
         },
         {
+            "title": "Punk",
             "id": 23
         },
         {
+            "title": "Post-Rock",
             "id": 24
         },
         {
+            "title": "Lo-Fi",
             "id": 25
         },
         {
+            "title": "Field Recordings",
             "id": 26
         },
         {
+            "title": "Metal",
             "id": 27
         },
         {
+            "title": "Noise",
             "id": 28
         },
         {
+            "title": "Psych-Folk",
             "id": 29
         },
         {
+            "title": "Krautrock",
             "id": 30
         },
         {
+            "title": "Jazz: Vocal",
             "id": 31
         },
         {
+            "title": "Electroacoustic",
             "id": 33
         },
         {
+            "title": "Ambient Electronic",
             "id": 34
         },
         {
+            "title": "Radio",
             "id": 44
         },
         {
+            "title": "Radio Art",
             "id": 35
         },
         {
+            "title": "Loud-Rock",
             "id": 36
         },
         {
+            "title": "Latin America",
             "id": 37
         },
         {
+            "title": "Drone",
             "id": 38
         },
         {
+            "title": "Free-Folk",
             "id": 39
         },
         {
+            "title": "Noise-Rock",
             "id": 40
         },
         {
+            "title": "Psych-Rock",
             "id": 41
         },
         {
+            "title": "Bluegrass",
             "id": 42
         },
         {
+            "title": "Electro-Punk",
             "id": 43
         },
         {
+            "title": "Indie-Rock",
             "id": 45
         },
         {
+            "title": "Industrial",
             "id": 46
         },
         {
+            "title": "No Wave",
             "id": 47
         },
         {
+            "title": "Free-Jazz",
             "id": 48
         },
         {
+            "title": "Experimental Pop",
             "id": 49
         },
         {
+            "title": "French",
             "id": 50
         },
         {
+            "title": "Reggae - Dub",
             "id": 51
         },
         {
+            "title": "African",
             "id": 59
         },
         {
+            "title": "Afrobeat",
             "id": 52
         },
         {
+            "title": "Nerdcore",
             "id": 53
         },
         {
+            "title": "Garage",
             "id": 54
         },
         {
+            "title": "Indian",
             "id": 55
         },
         {
+            "title": "New Wave",
             "id": 56
         },
         {
+            "title": "Post-Punk",
             "id": 57
         },
         {
+            "title": "Sludge",
             "id": 58
         },
         {
+            "title": "Freak-Folk",
             "id": 60
         },
         {
+            "title": "Jazz: Out",
             "id": 61
         },
         {
+            "title": "Progressive",
             "id": 62
         },
         {
+            "title": "Alternative Hip-Hop",
             "id": 63
         },
         {
+            "title": "Death-Metal",
             "id": 64
         },
         {
+            "title": "Middle East",
             "id": 65
         },
         {
+            "title": "Singer-Songwriter",
             "id": 66
         },
         {
+            "title": "Ambient",
             "id": 67
         },
         {
+            "title": "Hardcore",
             "id": 68
         },
         {
+            "title": "Power-Pop",
             "id": 69
         },
         {
+            "title": "Space-Rock",
             "id": 70
         },
         {
+            "title": "Polka",
             "id": 71
         },
         {
+            "title": "Balkan",
             "id": 72
         },
         {
+            "title": "Unclassifiable",
             "id": 73
         },
         {
+            "title": "Europe",
             "id": 74
         },
         {
+            "title": "Americana",
             "id": 75
         },
         {
+            "title": "Spoken Weird",
             "id": 76
         },
         {
+            "title": "Interview",
             "id": 77
         },
         {
+            "title": "Black-Metal",
             "id": 78
         },
         {
+            "title": "Rockabilly",
             "id": 79
         },
         {
+            "title": "Easy Listening: Vocal",
             "id": 80
         },
         {
+            "title": "Brazilian",
             "id": 81
         },
         {
+            "title": "Asia-Far East",
             "id": 82
         },
         {
+            "title": "N. Indian Traditional",
             "id": 83
         },
         {
+            "title": "South Indian Traditional",
             "id": 84
         },
         {
+            "title": "Bollywood",
             "id": 85
         },
         {
+            "title": "Pacific",
             "id": 86
         },
         {
+            "title": "Celtic",
             "id": 87
         },
         {
+            "title": "Be-Bop",
             "id": 88
         },
         {
+            "title": "Big Band/Swing",
             "id": 89
         },
         {
+            "title": "British Folk",
             "id": 90
         },
         {
+            "title": "Techno",
             "id": 91
         },
         {
+            "title": "House",
             "id": 92
         },
         {
+            "title": "Glitch",
             "id": 93
         },
         {
+            "title": "Minimal Electronic",
             "id": 94
         },
         {
+            "title": "Breakcore - Hard",
             "id": 95
         },
         {
+            "title": "Sound Poetry",
             "id": 96
         },
         {
+            "title": "20th Century Classical",
             "id": 97
         },
         {
+            "title": "Poetry",
             "id": 98
         },
         {
+            "title": "Talk Radio",
             "id": 99
         },
         {
+            "title": "North African",
             "id": 100
         },
         {
+            "title": "Sound Collage",
             "id": 101
         },
         {
+            "title": "Flamenco",
             "id": 102
         },
         {
+            "title": "IDM",
             "id": 103
         },
         {
+            "title": "Chip Music",
             "id": 110
         },
         {
+            "title": "Chiptune",
             "id": 104
         },
         {
+            "title": "Musique Concrete",
             "id": 105
         },
         {
+            "title": "Improv",
             "id": 106
         },
         {
+            "title": "New Age",
             "id": 107
         },
         {
+            "title": "Trip-Hop",
             "id": 108
         },
         {
+            "title": "Dance",
             "id": 109
         },
         {
+            "title": "Lounge",
             "id": 111
         },
         {
+            "title": "Goth",
             "id": 112
         },
         {
+            "title": "Composed Music",
             "id": 113
         },
         {
+            "title": "Drum & Bass",
             "id": 114
         },
         {
+            "title": "Shoegaze",
             "id": 115
         },
         {
+            "title": "Kid-Friendly",
             "id": 116
         },
         {
+            "title": "Thrash",
             "id": 117
         },
         {
+            "title": "Synth Pop",
             "id": 118
         },
         {
+            "title": "Banter",
             "id": 119
         },
         {
+            "title": "Deep Funk",
             "id": 120
         },
         {
+            "title": "Spoken Word",
             "id": 121
         },
         {
+            "title": "Chill-out",
             "id": 122
         },
         {
+            "title": "Bigbeat",
             "id": 123
         },
         {
+            "title": "Surf",
             "id": 124
         },
         {
+            "title": "Radio Theater",
             "id": 125
         },
         {
+            "title": "Grindcore",
             "id": 126
         },
         {
+            "title": "Rock Opera",
             "id": 127
         },
         {
+            "title": "Opera",
             "id": 128
         },
         {
+            "title": "Chamber Music",
             "id": 129
         },
         {
+            "title": "Choral Music",
             "id": 130
         },
         {
+            "title": "Symphony",
             "id": 131
         },
         {
+            "title": "Minimalism",
             "id": 132
         },
         {
+            "title": "Musical Theater",
             "id": 133
         },
         {
+            "title": "Dubstep",
             "id": 134
         },
         {
+            "title": "Skweee",
             "id": 135
         },
         {
+            "title": "Country & Western",
             "id": 149
         },
         {
+            "title": "Western Swing",
             "id": 136
         },
         {
+            "title": "Downtempo",
             "id": 137
         },
         {
+            "title": "Cumbia",
             "id": 138
         },
         {
+            "title": "Latin",
             "id": 139
         },
         {
+            "title": "Sound Art",
             "id": 140
         },
         {
+            "title": "Romany (Gypsy)",
             "id": 141
         },
         {
+            "title": "Compilation",
             "id": 142
         },
         {
+            "title": "Rap",
             "id": 143
         },
         {
+            "title": "Breakbeat",
             "id": 144
         },
         {
+            "title": "Gospel",
             "id": 145
         },
         {
+            "title": "Abstract Hip-Hop",
             "id": 146
         },
         {
+            "title": "Reggae - Dancehall",
             "id": 147
         },
         {
+            "title": "Spanish",
             "id": 148
         },
         {
+            "title": "Contemporary Classical",
             "id": 150
         },
         {
+            "title": "Wonky",
             "id": 151
         },
         {
+            "title": "Jungle",
             "id": 152
         },
         {
+            "title": "Klezmer",
             "id": 153
         },
         {
+            "title": "Holiday",
             "id": 154
         },
         {
+            "title": "Salsa",
             "id": 155
         },
         {
+            "title": "Nu-Jazz",
             "id": 156
         },
         {
+            "title": "Hip-Hop Beats",
             "id": 157
         },
         {
+            "title": "Modern Jazz",
             "id": 158
         },
         {
+            "title": "Turkish",
             "id": 159
         },
         {
+            "title": "Tango",
             "id": 160
         },
         {
+            "title": "Fado",
             "id": 161
         },
         {
+            "title": "Christmas",
             "id": 162
         }
     ],
